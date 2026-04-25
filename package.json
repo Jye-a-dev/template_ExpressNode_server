@@ -1,0 +1,39 @@
+{
+	"name": "template_node_server",
+	"version": "1.0.0",
+	"description": "Express TypeScript API template with Swagger",
+	"main": "dist/main.js",
+	"scripts": {
+		"dev": "ts-node-dev --respawn --transpile-only src/main.ts",
+		"build": "tsc",
+		"start": "node dist/main.js",
+		"typecheck": "tsc --noEmit"
+	},
+	"keywords": [
+		"express",
+		"typescript",
+		"swagger",
+		"template"
+	],
+	"author": "",
+	"license": "ISC",
+	"type": "commonjs",
+	"dependencies": {
+		"cors": "^2.8.6",
+		"dotenv": "^17.4.2",
+		"express": "^5.2.1",
+		"pg": "^8.20.0",
+		"swagger-jsdoc": "^6.2.8",
+		"swagger-ui-express": "^5.0.1",
+		"zod": "^4.3.6"
+	},
+	"devDependencies": {
+		"@types/cors": "^2.8.19",
+		"@types/express": "^5.0.6",
+		"@types/node": "^25.6.0",
+		"@types/swagger-jsdoc": "^6.0.4",
+		"@types/swagger-ui-express": "^4.1.8",
+		"ts-node-dev": "^2.0.0",
+		"typescript": "^6.0.3"
+	}
+}
