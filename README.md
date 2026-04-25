@@ -3,7 +3,7 @@
 ## Clone repo này
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/Jye-a-dev/template_ExpressNode_server
 ```
 
 Template khởi tạo cho Node.js backend API theo hướng dễ mở rộng, dùng:
