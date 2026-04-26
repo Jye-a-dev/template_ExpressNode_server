@@ -606,5 +606,3 @@ Template này đang đi theo hướng đó:
 - dễ copy module để phát triển tiếp
 
 ---
-
-Có thể viết tiếp README theo hướng ngắn gọn hơn cho team nội bộ, hoặc giữ bản hiện tại như tài liệu onboarding cho người mới clone repo.
